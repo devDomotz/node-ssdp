@@ -1,6 +1,6 @@
 {
-  "name": "node-ssdp",
-  "description": "A node.js SSDP client and server library.",
+  "name": "domotz-node-ssdp",
+  "description": "A fork of node.js SSDP client and server library.",
   "keywords": [
     "ssdp",
     "multicast",
@@ -8,7 +8,7 @@
     "device",
     "upnp"
   ],
-  "version": "2.9.1",
+  "version": "1.0.0",
   "author": "Ilya Shaisultanov <ilya.shaisultanov@gmail.com>",
   "dependencies": {
     "debug": "^2.2.0",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/diversario/node-ssdp.git"
+    "url": "git+ssh://git@github.com/devDomotz/node-ssdp.git"
   },
   "bugs": {
     "url": "https://github.com/diversario/node-ssdp/issues"

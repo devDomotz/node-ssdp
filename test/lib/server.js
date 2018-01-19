@@ -238,7 +238,7 @@ describe('Server', function () {
       'USN: uuid:f40c2981-7329-40b7-8b04-27f187aecfb5::upnp:rootdevice',
       'LOCATION: http://192.168.1.1:10293/upnp/desc.html',
       'CACHE-CONTROL: max-age=1800',
-      'SERVER: node.js/0.10.28 UPnP/1.1 node-ssdp/' + moduleVersion
+      'SERVER: node.js/0.10.28 UPnP/1.1 domotz-node-ssdp/' + moduleVersion
     ].join('\r\n')
 
     it('server emits nothing but logs it', function (done) {
@@ -273,7 +273,7 @@ describe('Server', function () {
       'USN: uuid:f40c2981-7329-40b7-8b04-27f187aecfb5::upnp:rootdevice',
       'LOCATION: http://192.168.1.1:10293/upnp/desc.html',
       'CACHE-CONTROL: max-age=1800',
-      'SERVER: node.js/0.10.28 UPnP/1.1 node-ssdp/' + moduleVersion
+      'SERVER: node.js/0.10.28 UPnP/1.1 domotz-node-ssdp/' + moduleVersion
     ].join('\r\n')
 
     var NOTIFY_BYE = [
@@ -410,7 +410,7 @@ describe('Server', function () {
         'LOCATION: http://' + require('ip').address() + ':10293/upnp/desc.html',
         'CACHE-CONTROL: max-age=1800',
         //'DATE: Fri, 30 May 2014 15:07:26 GMT', we'll test for this separately
-        'SERVER: node.js/' + process.versions.node + ' UPnP/1.1 node-ssdp/' + moduleVersion,
+        'SERVER: node.js/' + process.versions.node + ' UPnP/1.1 domotz-node-ssdp/' + moduleVersion,
         'EXT: ' // note the space
       ]
 
@@ -473,7 +473,7 @@ describe('Server', function () {
         'LOCATION: http://' + require('ip').address() + ':10293/upnp/desc.html',
         'CACHE-CONTROL: max-age=1800',
         //'DATE: Fri, 30 May 2014 15:07:26 GMT', we'll test for this separately
-        'SERVER: node.js/' + process.versions.node + ' UPnP/1.1 node-ssdp/' + moduleVersion,
+        'SERVER: node.js/' + process.versions.node + ' UPnP/1.1 domotz-node-ssdp/' + moduleVersion,
         'EXT: ' // note the space
       ]
 
